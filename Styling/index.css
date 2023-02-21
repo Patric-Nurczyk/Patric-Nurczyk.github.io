@@ -11,18 +11,17 @@ hr {
     margin-top: 2px;
 }
 
-div{
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
+div#navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .navigation{
+    font-size: large;
     margin-left: 15px;
     margin-right: 15px;
-    font-size: large;
-    display: inline-block;
 }
-p.navigation {
+span.navigation {
     color: blue;
     font-weight: bolder;
 }
