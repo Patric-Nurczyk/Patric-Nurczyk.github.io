@@ -16,6 +16,16 @@ div#navBar{
     justify-content: center;
     align-items: center;
 }
+
+div#content{
+    display: flex;
+    flex-direction: column;
+    min-height: 200vh;
+}
+
+div#header {
+    position: sticky;
+}
 .navigation{
     font-size: large;
     margin-left: 15px;
@@ -29,4 +39,10 @@ span.navigation {
 a.navigation {
     color: purple;
     font-size: large;
+}
+
+footer{
+    margin-top: auto;
+    text-align: center;
+    text-decoration: underline;
 }
