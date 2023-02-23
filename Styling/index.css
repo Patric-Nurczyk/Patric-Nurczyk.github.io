@@ -1,6 +1,6 @@
 body{
-background-color: rgba(0, 0, 0, 0.877);
-color: white;
+  background-color: rgba(0, 0, 0, 0.877);
+  color: white;
 }
 
 h1 {
@@ -20,6 +20,16 @@ div#navBar{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+div#content{
+    display: flex;
+    flex-direction: column;
+    min-height: 200vh;
+}
+
+div#header {
+    position: sticky;
 }
 .navigation{
     font-size: large;
@@ -71,4 +81,9 @@ li {
     margin-top: 5px;
     margin-left: 20px;
     margin-bottom: 10px;
+    
+footer{
+    margin-top: auto;
+    text-align: center;
+    text-decoration: underline;
 }
