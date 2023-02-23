@@ -1,3 +1,8 @@
+body{
+background-color: rgba(0, 0, 0, 0.877);
+color: white;
+}
+
 h1 {
     text-align: center;
     font-weight: bold;
@@ -6,7 +11,7 @@ h1 {
 
 hr {
     height: 3px;
-    background-color: black;
+    background-color: white;
     margin-bottom: 2px;
     margin-top: 2px;
 }
@@ -29,4 +34,41 @@ span.navigation {
 a.navigation {
     color: purple;
     font-size: large;
+}
+
+p.year {
+    margin-left: 20px;
+}
+
+p.listContent{
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    margin-bottom: 0px;
+}
+footer{
+    text-align: center;
+}
+
+ul {
+    margin-top: 3px;
+}
+
+li {
+    margin-bottom: auto;
+}
+
+.visual {
+    height: 50%;
+    width: 50%;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
