@@ -24,8 +24,6 @@ div#navBar{
     margin-bottom: 10px;
 }
 
-
-
 div#header {
     position: fixed;
     width: 100%;
@@ -122,4 +120,13 @@ li {
 
 hr{
     margin-top: none;
+}
+h4.pTitle {
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+h5 {
+    margin-top: 0px;
+    font-style: italic;
+    margin-bottom: 5px;
 }
