@@ -96,8 +96,19 @@ li {
     margin-bottom: 10px;
 }
 
-.gallery {
-   margin-left: 10%;
+.gallery { 
+   display: grid;
+   grid-template-columns: auto auto;
+   padding: 0px;
+}
+
+#threeColumn{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.galleryitem{
+    padding: 10px;
+    margin: auto;
 }
 
 #homepage {
