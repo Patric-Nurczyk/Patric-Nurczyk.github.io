@@ -146,3 +146,24 @@ a.github-link {
     color: rgb(175, 50, 248);
     font-style: italic;
 }
+
+h4.company {
+    margin-bottom: 2px;
+}
+
+img.logo {
+    height: 100px;
+}
+
+.photo-name{
+    display: grid;
+    grid-template-columns: 183px auto auto;
+}
+
+.name {
+    padding-top: 18px;
+}
+
+.description {
+    padding-left: 15px;
+}
