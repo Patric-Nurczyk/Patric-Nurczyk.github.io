@@ -141,3 +141,8 @@ h5 {
     font-style: italic;
     margin-bottom: 5px;
 }
+
+a.github-link {
+    color: rgb(175, 50, 248);
+    font-style: italic;
+}
